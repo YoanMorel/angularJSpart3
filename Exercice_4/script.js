@@ -1,8 +1,5 @@
-var schoolApp = angular.module('schoolApp',[]);
+var testApp = angular.module('app',[]);
 
-schoolApp.controller('studentsCtrl',function($scope){
-  $scope.firstName = 'Émilie';
-  $scope.lastName = 'Gérard';
-  $scope.age = '17';
-  $scope.grade = 'Terminale';
+testApp.controller('testCtrl', function($scope){
+  $scope.pi = 3.14159265359;
 });

@@ -1,8 +1,6 @@
-var schoolApp = angular.module('schoolApp',[]);
+var testApp = angular.module('app',[]);
 
-schoolApp.controller('studentsCtrl',function($scope){
-  $scope.firstName = 'Émilie';
-  $scope.lastName = 'Gérard';
-  $scope.age = '17';
-  $scope.grade = 'Terminale';
+testApp.controller('testCtrl', function($scope){
+  $scope.firstSentence = 'L\'Axolotl, Ambystoma mexicanum, est une espèce d\'urodèles de la famille des Ambystomatidae.';
+  $scope.secondSentence = 'L\'ORNITHORYNQUE (ORNITHORHYNCHUS ANATINUS) EST UN ANIMAL SEMI-AQUATIQUE ENDÉMIQUE DE L\'EST DE L\'AUSTRALIE, Y COMPRIS LA TASMANIE.';
 });
