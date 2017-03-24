@@ -1,4 +1,4 @@
-# Exercices AngularJS - Partie 2 : Les expressions
+# Exercices AngularJS - Partie 3 : Les filtres
 
 **Important : les variables sont déjà définies**
 
